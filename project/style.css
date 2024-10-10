@@ -1,0 +1,214 @@
+
+    
+    header {
+        margin-top: 4%;
+        bottom: 0%;
+        padding:5%;
+        padding-left: 14%;
+        color: rgb(117, 96, 69);
+        
+      }
+  
+      body{
+        background-color: rgba(182, 148, 107);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+  
+      
+      nav {
+        position:fixed;
+        top: 1%;
+        left: 0px;
+        height: 60px;
+        width: 100%;
+        min-width: 40em;
+        background-color: rgb(182, 148, 107);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.188);
+  
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        padding-left: auto;
+        padding-right: auto;
+        border: whitesmoke  1px;
+        
+      }
+      nav ul {
+        list-style-type: none;
+      }
+      nav ul li {
+        display: inline;
+        text-shadow: 10px #0e0e0e;
+        padding-left: 2%;
+        line-height: 2;
+  
+      }
+      nav ul li a {
+        text-decoration: none;
+        padding-right: 10px;
+      }
+      nav a:hover {
+        color: rgb(85, 70, 49);
+      }
+      nav a:focus {
+        color: rgb(209, 133, 27);
+      }
+      nav a:link {
+        color: #ffffff;
+      }
+      nav a:visited {
+        color: #ffffff;
+      }
+      nav a:active {
+        color: #ffffff;
+      }
+      
+      main {
+        padding: 5%;
+        background-color: rgba(182, 148, 107, 0.085);
+      }
+      
+
+    .mission{
+      background-color: rgba(182, 148, 107, 0.085);
+      color: rgb(117, 96, 69);
+      line-height: 2;;
+    }
+
+
+    .about{
+      padding-left: 25%;
+      padding-right: 20%;
+      padding-bottom: 0;
+      font-size: 16px;
+    }
+
+    .table3 {
+      background-color: rgba(128, 104, 72, 0.796); 
+      color: whitesmoke; 
+      line-height: 2;
+    }
+
+
+    .picture1 {
+      padding-top: 10%;
+      padding-left: 17%;
+    }
+
+   .reviews{
+
+      background-color: rgba(182, 148, 107, 0.085);
+      color: rgb(117, 96, 69);
+      line-height: 2;
+      padding-right: 20%;
+      padding-left: 20%;
+   }
+
+
+   .reviews td{
+    padding: 3%;
+    border: solid rgb(182, 148, 107);
+    border-radius: 10px;;
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.188);
+    background-color: rgb(253, 251, 249);
+   }
+
+
+      .houseCards{
+        margin-right: 5%;
+        margin-left: 5%;
+        width: 90%;
+        line-height: 1.5;
+      }
+  
+      .houseCards img{
+        height: 90%; 
+        width: 100%;
+        border-radius: 10px;
+  
+      }
+  
+  
+  
+      .card1 {
+      width: 30%;
+      padding: 2%;
+      border-radius: 10px;
+      box-shadow: 0 0px 6px rgba(0, 0, 0, 0.188);
+      background-color: rgb(253, 251, 249,0.456);
+      
+      }
+  
+      .card2 {
+        width: 30%;
+      padding: 2%;
+      border-radius: 10px;
+      box-shadow: 0 0px 6px rgba(0, 0, 0, 0.188);
+      background-color: rgba(253, 251, 249, 0.456);
+      }
+  
+      .card3 {
+        width: 30%;
+      padding: 2%;
+      border-radius: 10px;
+      box-shadow: 0 0px 6px rgba(0, 0, 0, 0.188);
+      background-color: rgb(253, 251, 249,0.456);
+      }
+  
+  
+      .pics{
+
+        color:rgb(100, 74, 7);
+        width:80%;
+        padding-left:3%;
+        padding-right: 3%;
+    
+    
+      }
+      .pics td{
+        width:20%;
+      }
+      .pics img{
+        height:50%;
+      }
+    
+      .details{
+
+        color:rgb(100, 74, 7);
+        line-height: 2;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+      }
+      
+
+      footer {
+        text-align: center;
+        background-color: rgb(182, 148, 107);
+        color: whitesmoke;
+      }
+      
+      @media screen and (min-width: 600px) {
+        body {
+          background-color: rgb(198, 198, 198);
+        }
+      }
+      @media screen and (min-width: 800px) {
+        body {
+          background-color: rgb(255, 255, 255);
+        }
+      }
+      @media screen and (min-width: 1000px) {
+        body {
+          background-color:whitesmoke;
+        }
+      }
+      
+      @media print {
+        nav {
+          display: none;
+        }
+        footer {
+          display: none;
+        }
+      }
+    
